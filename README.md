@@ -24,6 +24,7 @@ Code Example: Classification Model
 python
 Copy code
 ### Classification model usage example
+```
 matches = {
     'MIA-NYK': [[0.46, 0.344, 30.9, 40.6, 23.8, 0.47, 0.354, 34, 46.6, 22.9]],
     'GSW-LAL': [[0.479, 0.385, 34.1, 44.6, 29.8, 0.482, 0.346, 35.7, 45.7, 25.3]]
@@ -31,10 +32,12 @@ matches = {
 
 print(classifier_opt.predict(matches['MIA-NYK']))
 print(classifier_opt.predict(matches['GSW-LAL']))
+```
 Code Example: Regression Model
 python
 Copy code
 ### Regression model usage example
+```
 matches = {
     'MIA-NYK': [[0.46, 0.344, 30.9, 40.6, 23.8, 0.47, 0.354, 34, 46.6, 22.9]],
     'GSW-LAL': [[0.479, 0.385, 34.1, 44.6, 29.8, 0.482, 0.346, 35.7, 45.7, 25.3]]
@@ -44,6 +47,7 @@ print(regresser.predict(matches['MIA-NYK']))
 print(regresser2.predict(matches['MIA-NYK']))
 print(regresser.predict(matches['GSW-LAL']))
 print(regresser2.predict(matches['GSW-LAL']))
+```
 
 ##Project Credits 
 
