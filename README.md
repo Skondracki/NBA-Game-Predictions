@@ -23,7 +23,7 @@ Example Usage
 Code Example: Classification Model
 python
 Copy code
-## Classification model usage example
+### Classification model usage example
 ```
 matches = {
     'MIA-NYK': [[0.46, 0.344, 30.9, 40.6, 23.8, 0.47, 0.354, 34, 46.6, 22.9]],
@@ -36,7 +36,7 @@ print(classifier_opt.predict(matches['GSW-LAL']))
 Code Example: Regression Model
 python
 Copy code
-## Regression model usage example
+### Regression model usage example
 ```
 matches = {
     'MIA-NYK': [[0.46, 0.344, 30.9, 40.6, 23.8, 0.47, 0.354, 34, 46.6, 22.9]],
@@ -49,13 +49,13 @@ print(regresser.predict(matches['GSW-LAL']))
 print(regresser2.predict(matches['GSW-LAL']))
 ```
 
-##Project Credits 
+## Project Credits 
 
 This project was developed by the following team members:
 Luis Cagigal 
 Luis Astudillo
 Sean Kondracki
 
-##License
+## License
 This project is licensed under the MIT License.
 
