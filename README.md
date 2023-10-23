@@ -16,7 +16,7 @@ Sports betting is an increasingly popular industry with a constant need for accu
 
 3. Install the necessary libraries by running !pip3 install scikeras pandas.
 
-4. Upload your game.csv file to your Google Drive and update the path in the code accordingly.
+4. Upload your the csv file to your Google Drive and update the path in the code accordingly.
 
 5. Execute each code cell in sequence to load, preprocess, and analyze the data.
 
