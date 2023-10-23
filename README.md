@@ -8,6 +8,26 @@ This project was part of a final capstone assignment in a machine learning cours
 
 Sports betting is an increasingly popular industry with a constant need for accurate game outcome predictions. This project serves to demonstrate how machine learning techniques can be used to make informed predictions, which can be crucial for sportsbook businesses.
 
+## How to Run the Code
+
+1. Begin by opening Google Colab in your web browser and log in to your Google account.
+
+2. Mount your Google Drive using the provided code. This will grant Colab access to your Drive.
+
+3. Install the necessary libraries by running !pip3 install scikeras pandas.
+
+4. Upload your game.csv file to your Google Drive and update the path in the code accordingly.
+
+5. Execute each code cell in sequence to load, preprocess, and analyze the data.
+
+6. Review the generated visualizations for insights into the dataset.
+
+7. Follow the code instructions to build and evaluate models for classification and regression tasks. To understand how to use the models follow the example usage below. 
+
+9. Execute the hypothesis test cell to assess the significance of the model differences.
+
+Please note that these instructions assume you're using Google Colab. If you're using a different environment, such as Jupyter Notebook, you'll need to adapt the file loading and setup steps accordingly.
+
 ## Features and Technologies
 
 - Utilizes the NBA database with 50+ years of game data.
@@ -21,8 +41,6 @@ The project includes both classification and regression models. The classificati
 
 Example Usage
 Code Example: Classification Model
-python
-Copy code
 ### Classification model usage example
 ```
 matches = {
@@ -34,8 +52,6 @@ print(classifier_opt.predict(matches['MIA-NYK']))
 print(classifier_opt.predict(matches['GSW-LAL']))
 ```
 Code Example: Regression Model
-python
-Copy code
 ### Regression model usage example
 ```
 matches = {
